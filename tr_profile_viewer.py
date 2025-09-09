@@ -22,7 +22,7 @@ def load_data(file_path):
     return df
 
 # ✅ Pass your file path
-file_path = r"C:\Users\ICAI\Desktop\TR Profile Viewer\Streamlit test.xlsx"
+file_path = r"Streamlit test.xlsx"
 df = load_data(file_path)
 
 # ----------------- Streamlit App -----------------
@@ -65,3 +65,4 @@ if not results.empty:
         st.markdown("---")
 else:
     st.warning("No matching records found.")
+
