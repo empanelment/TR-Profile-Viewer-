@@ -11,7 +11,7 @@ def load_data(file_path):
 
     # Flexible column mapping
     column_mapping = {
-        "name of member": "name",
+        "name of afur": "name",
         "mrn no.": "mrn",
         "mobile no.": "mobile",
         "email id": "email",
@@ -87,4 +87,5 @@ if authenticate_user():
         st.markdown("---")
  else:
     st.warning("No matching records found.")
+
 
